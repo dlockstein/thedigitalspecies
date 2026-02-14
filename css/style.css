@@ -506,6 +506,65 @@ section:nth-child(even) {
     margin-bottom: var(--spacing-sm);
 }
 
+/* Listen & Watch - Media Section */
+.media-section {
+    background-color: var(--bg-white);
+}
+
+.media-section h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+}
+
+.media-item {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    padding: 0 var(--spacing-md);
+}
+
+.media-item:last-child {
+    margin-bottom: 0;
+}
+
+.media-item h3 {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.audio-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: var(--spacing-xl);
+    background-color: var(--bg-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.audio-container audio {
+    width: 100%;
+    display: block;
+}
+
 /* What's Inside */
 .whats-inside {
     background-color: var(--bg-light);
